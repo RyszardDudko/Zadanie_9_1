@@ -5,10 +5,10 @@ var triangle3Area = getTriangleArea(30, 35);
 function getTriangleArea(a, h) {
 if (a <= 0 || h <= 0) { 
 	return ('Nieprawidłowe dane');
-	}else
+	}
 	return a*h/2;
 	}	
 	console.log(getTriangleArea(10, 15));
-	console.log(getTriangleArea(0, -25));
+	console.log(getTriangleArea(7, 25));
 	console.log(getTriangleArea(30, 35));
 	
